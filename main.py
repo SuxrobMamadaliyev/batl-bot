@@ -20,7 +20,7 @@ from telegram.ext import (
 # .env dan token, admin id va proxy ni yuklash
 load_dotenv()
 BOT_TOKEN = os.getenv("TOKEN")
-CHANNEL_ID = '@MamurZokirovv'
+CHANNEL_ID = '@BATLEE1VS1Comunity'
 ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
 
 if not BOT_TOKEN or not ADMIN_CHAT_ID:
@@ -117,7 +117,6 @@ def get_translation(lang, key):
 start_channels = [
     {"name": "Rasmiy Kanal", "link": "https://t.me/suxa_cyber", "channelId": "@suxa_cyber"},
     {"name": "BATLEE 1 VS 1 Stars | Premium Community ", "link": "https://t.me/BATLEE1VS1Comunity", "channelId": "@BATLEE1VS1Comunity"},
-    {"name": "MamurZokirovv channel", "link": "https://t.me/MamurZokirovv", "channelId": "@MamurZokirovv"},
 ]
 
 def generate_referral_code(length=6):
